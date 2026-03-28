@@ -51,10 +51,22 @@
         },
         "mainEntity": {
             "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "Bassem Fawaz"
+            },
+            "datePublished": "2026-03-24",
             "itemReviewed": {
                 "@type": "LocalBusiness",
                 "name": "Rapitecnic Servicio Integral S.L.",
-                "address": "Plaça del Vapor 9-10C, 08915 Badalona, Barcelona"
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Plaça del Vapor 9-10C",
+                    "addressLocality": "Badalona",
+                    "postalCode": "08915",
+                    "addressRegion": "Barcelona",
+                    "addressCountry": "ES"
+                }
             },
             "reviewRating": {
                 "@type": "Rating",
